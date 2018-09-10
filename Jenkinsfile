@@ -1,10 +1,8 @@
-pipeline {
-  agent any
-  stages {
-    stage('Build') {
-      steps {
-        echo 'Janejira'
-      }
+node {
+    stage("stage 1") {
+        echo "Hello"
     }
-  }
+    stage("stage 2") {
+        echo "World!"
+    }
 }
