@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        echo 'Jenkins'
+        echo 'Janejira'
       }
     }
   }
